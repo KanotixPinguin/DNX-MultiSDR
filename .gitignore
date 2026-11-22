@@ -1,0 +1,14 @@
+# Editor/OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs / Temp
+*.log
+tmp/
+
+# Keine Build-Artefakte
+node_modules/
+dist/
+build/
