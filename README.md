@@ -40,6 +40,7 @@ mit leistungsfähigen Empfangs-, Dekodier-, Kartierungs- und Wettermodulen:
 | Dokument | Inhalt |
 |---|---|
 | [docs/erste-schritte.md](docs/erste-schritte.md) | Hauptfenster-Tour: Menüleiste, Toolbar, Befehlsleiste, Add RX |
+| [docs/decoder.md](docs/decoder.md) | **ADD RX & Decoder im Detail**: jedes Dekoder-Fenster (AIS, DMR, APRS, ADS-B, D-STAR, M17, CW, RTTY, TETRA, P25, ILS, VOR …) mit Screenshot |
 | [docs/add-channel.md](docs/add-channel.md) | **ADD Channel im Detail**: Satelliten, Sky, Wetter – jeder Eintrag mit Screenshot |
 | [docs/wetter.md](docs/wetter.md) | Wetterzentrale: Radar, Blitzdaten, Warnungen, Einstellungen, HF-Fax |
 | [docs/tools.md](docs/tools.md) | **Tools-Menü im Detail**: Welt-DB, Frequenz-Scanner, Frequenz-Manager, Multidecoder, Universal-Decoder, Band-Browser |

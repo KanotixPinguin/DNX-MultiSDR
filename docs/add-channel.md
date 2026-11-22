@@ -1,7 +1,12 @@
 # ADD Channel im Detail
 
 `+ Add Channel` öffnet die **Kanalpalette** (`Kanal / Fenster`). Sie gliedert sich in
-drei Kategorien plus einen eigenen Bereich für RX-gebundene Dekoder:
+drei Kategorien plus einen eigenen Bereich für RX-gebundene Module:
+
+> **Wichtig:** Die klassischen Dekoder-Fenster (AIS, DMR, APRS, ADS-B, D-STAR, M17,
+> CW, RTTY, TETRA, P25, ILS, VOR …) werden **nicht** über diese Palette geöffnet,
+> sondern über die **Befehlsleiste** (`oeffne CW`, `oeffne DMR`, …) — siehe
+> [decoder.md](decoder.md). In der Palette stehen nur Satelliten, Sky und Wetter.
 
 ![Kanalpalette](screens/03-add-channel.png)
 
@@ -86,6 +91,40 @@ Die Wetter-Kategorie ist der größte Block in Add Channel. Er gliedert sich in
 ![Regen](screens/15-wetter-regen.png) &nbsp; ![Winter](screens/16-wetter-winter.png)
 
 ![Sonne & Sicht](screens/17-wetter-sonne.png)
+
+### Kennzahlen-Tab (DWD-Messwerte)
+
+Jedes Phänomen-Fenster hat neben **Warnungen** einen zweiten Reiter **Kennzahlen** —
+aktuelle DWD-Stationswerte statt amtlicher Warntexte. Hier die fünf Fenster umgeschaltet:
+
+![Wind – Kennzahlen](screens/36-wetter-wind-kennzahlen.png)
+
+*Wind (Kennzahlen): `Wind 3 km/h · Böen 6 km/h · Böen-Spitze (60 min) 7 km/h ·
+Windrichtung 350° N · Änderung 0 km/h · Einordnung (Messwert: unter der Warnschwelle)`,
+Fußnote mit Richtwert (61 km/h) und Hinweis auf die nächste DWD-Station.*
+
+![Gewitter – Kennzahlen](screens/37-wetter-gewitter-kennzahlen.png)
+
+*Gewitter (Kennzahlen): `Blitze 15 min: 0 Einschläge · Blitze 60 min: 0 Einschläge ·
+Blitzrate (60 min) 0/min · Tendenz etwa gleich · Niederschlag 0 mm · Bewölkung 100 %`;
+Gebiets-Angabe `49–54°N / 3–11°O` mit eigener `/lightning`-Quelle · Radar-Zugbahn im
+Lagefenster.*
+
+![Regen – Kennzahlen](screens/38-wetter-regen-kennzahlen.png)
+
+*Regen / Hochwasser (Kennzahlen): `Niederschlag 10 / 60 min: 0 mm · Regenrate 0 mm/h ·
+Summe 24 h 0 mm · Summe 72 h 10,7 mm · Zustand `fog`, DWD-Stundenwerte.*
+
+![Winter – Kennzahlen](screens/39-wetter-winter-kennzahlen.png)
+
+*Winter (Kennzahlen): `Temperatur −1,1 °C · Taupunkt −1,4 °C · Niederschlag 0 mm ·
+Tmin/Tmax 0,1/3,4 °C · Froststunden (24 h) 0 von 2 h`; Fußnote:
+`Bodentemperatur wird von Bright Sky nicht geliefert — kein erfundener Wert`.*
+
+![Sonne & Sicht – Kennzahlen](screens/40-wetter-sonne-kennzahlen.png)
+
+*Sonne & Sicht (Kennzahlen): `Temperatur −1,1 °C · Tmax (24 h) 3,4 °C · Tmax (72 h) 6,7 °C ·
+Sonne (60 min) 0 min · Relative Feuchte 98 % · Tropennacht: nein`; DWD-Stundenwerte.*
 
 ### Karten (WZ – Wetterzentrale)
 

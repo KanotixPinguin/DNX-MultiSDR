@@ -47,3 +47,22 @@ Rechts neben `Raster: n` hat die Toolbar Fenstergrößen-Presets (`800 × 600` �
 `5120 × 2880`) sowie Ansicht-Hilfen (`⛶ Viewport FIT`, `⟲ Reset`, `⚙ Device Defaults`,
 `Anordnung: AN`). `Raster: n` steuert die Spaltenzahl der automatischen Anordnung —
 passend zur Fenstergröße der RX-/Tool-Fenster (Standard 396 × 400 px).
+
+Der Toolbar-Button **FFT** öffnet das folgende Analysen-Fenster:
+
+## FFT — Spektrum & Wasserfall des aktiven RX
+
+Der **FFT**-Button öffnet das Fenster **RX <n> / FFT / Spektrum** mit vier Reitern:
+`Spektrum`, `Wasserfall`, `FFT`, `Skala`.
+
+![FFT-Fenster](screens/41-fft-fenster.png)
+
+*FFT-Fenster (RX 5 · DSP Test Source) mit `Spektrum`-Reiter: Darstellungsmodus `Linie`,
+Spektrum-Palette `2511`, Wasserfall-Stil `Farbe`, `Spektrum-Tempo` 60 FPS,
+`Linienfarbe`/`Füllfarbe oben`/`Füllfarbe unten` mit Hex-Werten + `AUS`-Schaltern,
+`Füll-Deckkraft` 48 %, `Linien-Deckkraft` 1,00. Buttons `Max Hold löschen`,
+`Persistenz löschen`, `Spektrum zurücksetzen`.*
+
+`Viewport FIT` zeichnet Inhalt passend zur Fenstergröße, `Reset` stellt die
+RX-Parameter auf Standard zurück (Gain, AGC, Empfangspegel), `⚙ Device Defaults`
+ruft die gespeicherten Geräte-Vorgaben auf.

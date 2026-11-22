@@ -2,7 +2,7 @@
 
 `Tools` (Toolbar) öffnet ein Dropdown mit sieben Werkzeugen. Unten in der
 Befehlsleiste stehen dieselben Befehle als Text zur Verfügung (z. B. `wetter`,
-`scan`, `oeffne AIS` …).
+`scan`, `oeffne AIS` …; vollständige Decoder-Liste: [decoder.md](decoder.md)).
 
 ![Tools-Menü](screens/29-tools-menue.png)
 

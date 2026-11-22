@@ -23,6 +23,18 @@ Die Meldungen werden im 10-Minuten-Takt aktualisiert; für verbindliche Informat
 gilt ausschließlich der DWD bzw. die offiziellen Warnsysteme — siehe
 [disclaimer.md](disclaimer.md).
 
+### Kennzahlen-Tab (DWD-Messwerte)
+
+Neben **Warnungen** hat jedes Phänomen-Fenster den Reiter **Kennzahlen**
+(aktuelle DWD-Stationswerte: Wind/Böen, Blitzrate, Niederschlag/Summe, Temperatur/Taupunkt,
+Frostdauer bzw. Feuchte/Tropennacht je nach Fenster). Die vier Fenster `Wind`,
+`Gewitter`, `Regen` und `Winter` sowie `Sonne & Sicht` sind in
+[add-channel.md](add-channel.md#kennzahlen-tab-dwd-messwerte) mit je einem
+Screenshot dokumentiert. Wichtig fürs Verständnis: Werte unterhalb der
+Warnschwellen werden als solche ausgewiesen (`unter der Warnschwelle`), und
+fehlen Werte in der Quelle, erfindet die App keine (`kein erfundener Wert` —
+ordentlich so).
+
 ## WZ-Karten (2D & 3D)
 
 **2D** (`WZ · Karte 2D`) — Leaflet/OpenStreetMap-Basiskarte + Regenradar- und

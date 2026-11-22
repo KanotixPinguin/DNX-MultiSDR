@@ -47,6 +47,9 @@ Die Textzeile versteht Freitextbefehle und steuert die App wie ein Kommandozeile
 oeffne AIS | karte 3d | wetter | scan | oeffne DMR
 ```
 
+Alle verfügbaren Dekoder-Befehle (`oeffne AIS`, `oeffne DMR`, `oeffne APRS`, …)
+sind samt Screenshot jedes Dekoder-Fensters in [decoder.md](decoder.md) beschrieben.
+
 Dazu die drei grünen Schaltflächen **`Los`**, **`Sprechen`**, **`Bereit`**:
 
 - **Los** — führt den eingetippten Befehl aus
