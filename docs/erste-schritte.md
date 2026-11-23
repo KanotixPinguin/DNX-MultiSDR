@@ -99,3 +99,5 @@ Nach dem Hinzufügen (oder Öffnen) eines RX erscheint ein Fenster im 396 × 400
 - `Anordnung: AN` legt Fenster automatisch ins **Raster** (Spalten `Raster: n`).
 - Über **Workspace**-Menü oder `View` lassen sich alle Fenster gleichzeitig minimieren/wiederherstellen/schließen und Layouts kaskadieren oder kacheln.
 - Arbeitsbereiche 1–4 trennen Fenstergruppen (z. B. SAT / Wetter / Scan / HF-Fax).
+
+→ Alle Bedienelemente im Detail (Titelleiste, ≡-Menü, Raster 2–6, Statuszeile, Befehlsleiste + `Los`): **[bedienung.md](bedienung.md)**

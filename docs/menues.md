@@ -1,5 +1,7 @@
 # Menüs im Überblick
 
+> Detailbeschreibungen aller Bedienelemente (Fenster-Titelleiste, ≡-Menü, Geräte-Einstellungen, Befehlsleiste, Statuszeile): **[bedienung.md](bedienung.md)**
+
 ## File (`File`)
 
 ![File-Menü](screens/27-menu-file.png)
@@ -35,11 +37,16 @@ kompakte Top-Menüs.“*
 
 ![Preferences-Menü](screens/30-menu-preferences.png)
 
-- `FFT Einstellungen` — FFT/Spektrum-Parameter des aktiven RX
-- `Geräte-Standardwerte` — Vorgaben pro Gerät (Gain, AGC, Schwellwerte …)
-- `Anzeige-Standardwerte für neue RX` — neue Fenster erhalten diese Defaults
-- `Audio-Equalizer aktiver RX` — Klang-EQ pro RX-Kanal
+- `FFT Einstellungen` — öffnet/aktualisiert in dieser Beta das **FFT-Fenster** des
+  aktiven RX (kein Einstellungs-Dialog; die FFT-Parameter stehen im Fenster selbst)
+- `Geräte-Standardwerte` — in dieser Beta **ohne sichtbare Wirkung** (beobachtet)
+- `Anzeige-Standardwerte für neue RX` — in dieser Beta **ohne sichtbare Wirkung** (beobachtet)
+- `Audio-Equalizer aktiver RX` — 10-Band-LED-Equalizer des aktiven RX (Preamp, FLACH/BASS/MUSIK/SPRACHE/RESET)
 - `Über DNX MultiSDR` — Version/Komponentenliste
+
+Die pro-RX-Gerätekonfiguration (RF Gain, AGC, Samplerate, IF, Squelch, Bandplan …)
+erreichst du über **`≡` in der Titelleiste des RX-Fensters → `Geräte-Einstellungen – RX <n>`**
+— siehe [bedienung.md](bedienung.md) §5.
 
 ## Toolbar-Presets & Raster
 
@@ -64,5 +71,6 @@ Spektrum-Palette `2511`, Wasserfall-Stil `Farbe`, `Spektrum-Tempo` 60 FPS,
 `Persistenz löschen`, `Spektrum zurücksetzen`.*
 
 `Viewport FIT` zeichnet Inhalt passend zur Fenstergröße, `Reset` stellt die
-RX-Parameter auf Standard zurück (Gain, AGC, Empfangspegel), `⚙ Device Defaults`
-ruft die gespeicherten Geräte-Vorgaben auf.
+RX-Parameter auf Standard zurück (Gain, AGC, Empfangspegel). **`⚙ Device Defaults`**
+öffnet in dieser Beta den Dialog *„Receiver hinzufügen“* (Geräteauswahl) — die echten
+Vorgaben stecken in `≡ → Geräte-Einstellungen – RX <n>` (siehe [bedienung.md](bedienung.md) §5).

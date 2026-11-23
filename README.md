@@ -45,6 +45,7 @@ mit leistungsfähigen Empfangs-, Dekodier-, Kartierungs- und Wettermodulen:
 | [docs/wetter.md](docs/wetter.md) | Wetterzentrale: Radar, Blitzdaten, Warnungen, Einstellungen, HF-Fax |
 | [docs/tools.md](docs/tools.md) | **Tools-Menü im Detail**: Welt-DB, Frequenz-Scanner, Frequenz-Manager, Multidecoder, Universal-Decoder, Band-Browser |
 | [docs/menues.md](docs/menues.md) | File / View / Workspace / Preferences im Überblick |
+| [docs/bedienung.md](docs/bedienung.md) | **Bedienelemente im Detail**: Fenster-Titelleiste + ≡-Menü, Raster 2–6, Anordnung AN/AUS, Befehlsleiste + `Los`, Decoder-START (wie/wann/wo), Device Einstellungen, EQ, Statuszeile |
 | [docs/installation.md](docs/installation.md) | Betrieb mit Docker und ohne Docker, Zusatz-Container und warum |
 | [docs/architektur.md](docs/architektur.md) | Warum nicht alles in JavaScript gebaut ist |
 | [docs/faq.md](docs/faq.md) | Häufige Fragen (eigene API-Schlüssel, Datenquellen, Offline-Betrieb …) |

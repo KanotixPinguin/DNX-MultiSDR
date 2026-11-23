@@ -14,7 +14,9 @@ oeffne NXDN | oeffne ILS | oeffne VOR
 Der volle Absichtstext steht als Platzhalter in der Leiste (`oeffne AIS | karte 3d |
 wetter | scan | oeffne DMR`). Tippen, `los` klicken — die Fenster öffnen sich an das
 Raster angebunden (Standard 396 × 400 px). Enthält die Eingabe keine bekannte
-Dekoder-Anweisung, passiert einfach nichts.
+Dekoder-Anweisung, passiert einfach nichts. **Empfang/Dekodierung starten tut nur der
+`START`-Knopf im jeweiligen Dekoder-Fenster** (wie/wann/wo erklärt):
+[bedienung.md](bedienung.md) §8.
 
 > **Hinweis:** Die Befehle `karte 3d`, `wetter` und `scan` öffnen in dieser Beta
 > nur ein generisches Wasserfall-Fenster des aktiven RX. Die echten Werkzeuge
